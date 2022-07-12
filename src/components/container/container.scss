@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Lato&display=swap');
+  
+.main__container {
+    border-radius: 0.4rem;
+    width: 35rem;
+    margin: 12rem auto 0rem auto;
+    background-color: whitesmoke;
+    display: table;
+    flex-direction: column;
+}
+
+.div__quote {
+    //color: burlywood;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Lato';
+    height: auto;
+    clear: both;
+}
+.quote {
+    font-size: 1.5rem;
+}
+.div__author {
+    //color: burlywood;
+    font-size: 1.5rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+.div__buttons {
+    font-family: 'Lato';
+    .button {
+        border: none;
+        //background-color: burlywood;
+        border-radius: 0.2rem;
+        padding: 0.4rem;
+        margin: 1rem 0.8rem 2rem 0.8rem;
+        &:hover {
+            opacity: 0.5;
+        }
+        &#tweet-quote,
+        &#tumblr-quote {
+            float: left;
+            margin-right: 0.2rem;
+        }
+        &#new-quote {
+            color:whitesmoke;
+            outline: none;
+            float: right;
+            height: 2.5rem;
+        }
+    }
+}
+
+.icon__social {
+    font-size: 1.5rem;
+    color: whitesmoke;
+
+}
+
+.icon__quote {
+    margin-right: 0.4em;
+    font-size: 1.5rem;
+}
